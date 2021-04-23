@@ -5,11 +5,11 @@
 
     &::-webkit-scrollbar{
         width: .4rem;
-        background: var(--gray-100);
+        background: var(--black);
     }
 
     &::-webkit-scrollbar-thumb{
-        background: var(--gray-200);
+        background: var(--button);
         border-radius: .2rem;
     }
 
@@ -102,9 +102,8 @@
 
                 width: 2.5rem;
                 height: 2.5rem;
-                background: var(--white);
-
-                border: 1px solid var(--gray-100);
+                background: var(--button);
+                border: none;
                 border-radius: 0.675rem;
                 font-size: 0;
 
@@ -166,9 +165,8 @@
             button{
                 width: 2rem;
                 height: 2rem;
-                background: var(--white);
-
-                border: 1px solid var(--gray-100);
+                background: var(--button);
+                border: none;
                 border-radius: 0.5rem;
                 font-size: 0;
 
